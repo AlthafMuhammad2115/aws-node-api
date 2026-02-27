@@ -178,16 +178,49 @@ curl -X GET http://ec2-100-55-7-244.compute-1.amazonaws.com/list \
 
 # 📸 Screenshots
 
-The following screenshots are included in the repository to prove successful operation:
+The following screenshots prove successful API deployment and live RDS integration.
 
-• POST /create API response  
-Shows successful insertion of data  
+---
 
-• GET /list API response  
-Shows data retrieved from database  
+## 1️⃣ POST /create – curl Request
 
-• AWS RDS MySQL Table Output  
-Shows the same data present in the sample table  
+![POST Create - curl](screenshots/create_curl_req.png)
+
+---
+
+## 2️⃣ POST /create – Postman Request
+
+![POST Create - Postman](screenshots/create_postman_req.png)
+
+---
+
+## 3️⃣ GET /list – curl Request
+
+![GET List - curl](screenshots/list_curl_req.png)
+
+---
+
+## 4️⃣ GET /list – Postman Request
+
+![GET List - Postman](screenshots/list_postman_req.png)
+
+---
+
+## 5️⃣ AWS RDS – Table Data Verification
+
+The following screenshots show data successfully written to and read from the live RDS database.
+
+![RDS Table Output 1](screenshots/RDS_DB1.png)
+
+![RDS Table Output 2](screenshots/RDS_DB2.png)
+
+---
+
+## 6️⃣ AWS RDS Console View
+
+![RDS Console 1](screenshots/rds.png)
+
+![RDS Console 2](screenshots/rds2.png)
 
 ---
 
@@ -225,3 +258,4 @@ This project demonstrates:
 - API Authorization implementation  
 
 ---
+
