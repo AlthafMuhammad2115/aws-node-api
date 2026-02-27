@@ -208,19 +208,11 @@ The following screenshots prove successful API deployment and live RDS integrati
 
 ## 5️⃣ AWS RDS – Table Data Verification
 
-The following screenshots show data successfully written to and read from the live RDS database.
+The following screenshots show data successfully written to and read from the live RDS database using EC2 Instance.
 
 ![RDS Table Output 1](screenshots/RDS_DB1.png)
 
 ![RDS Table Output 2](screenshots/RDS_DB2.png)
-
----
-
-## 6️⃣ AWS RDS Console View
-
-![RDS Console 1](screenshots/rds.png)
-
-![RDS Console 2](screenshots/rds2.png)
 
 ---
 
@@ -258,4 +250,5 @@ This project demonstrates:
 - API Authorization implementation  
 
 ---
+
 
