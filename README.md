@@ -108,7 +108,7 @@ mysql -h $DB_HOST -u $DB_USER -p
 
 Enter the RDS password when prompted.
 
----
+
 
 ### Create Database
 
@@ -117,7 +117,7 @@ CREATE DATABASE IF NOT EXISTS assignmentdb;
 USE assignmentdb;
 ```
 
----
+
 
 ### Create Sample Table
 
@@ -128,7 +128,7 @@ CREATE TABLE IF NOT EXISTS sample (
 );
 ```
 
----
+
 
 ### Verify Table Creation
 
@@ -305,6 +305,7 @@ This project demonstrates:
 - API Authorization implementation  
 
 ---
+
 
 
 
