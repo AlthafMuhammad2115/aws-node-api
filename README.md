@@ -1,8 +1,8 @@
-# 🚀 DevOps Assignment 2 – AWS Compute, Networking & Database Integration
+# DevOps Assignment 2 – AWS Compute, Networking & Database Integration
 
 ---
 
-## 📌 Objective
+## Objective
 
 Build a REST API, connect it to an AWS RDS database, containerize it using Docker, and deploy it securely on an AWS EC2 instance.
 
@@ -10,15 +10,15 @@ The EC2 instance communicates privately with the RDS database using AWS Security
 
 ---
 
-# 🌐 Live Deployment (Public URL)
+# Live Deployment (Public URL)
 
-## 🔗 Public EC2 URL
+## Public EC2 URL
 
 http://ec2-100-55-7-244.compute-1.amazonaws.com
 
 ---
 
-# 🔧 Environment Variable Configuration
+#  Environment Variable Configuration
 
 ---
 
@@ -146,7 +146,7 @@ Your database setup is now complete.
 
 ---
 
-# ▶️ Running the Application on EC2
+# Running the Application on EC2
 
 ## Step 1: Clone the Repository
 
@@ -174,7 +174,7 @@ The API is now running and accessible publicly.
 
 ---
 
-# 🔐 Authorization Requirement
+# Authorization Requirement
 
 All API requests must include the following header:
 
@@ -190,11 +190,11 @@ Requests without this header will return:
 
 ---
 
-# 📡 API Endpoints
+# API Endpoints
 
 ---
 
-## 1️⃣ Create Entry
+## 1️ Create Entry
 
 ### Endpoint
 
@@ -213,7 +213,7 @@ curl -X POST http://ec2-100-55-7-244.compute-1.amazonaws.com/create \
 
 ---
 
-## 2️⃣ List All Entries
+## 2️ List All Entries
 
 ### Endpoint
 
@@ -237,31 +237,31 @@ The following screenshots prove successful API deployment and live RDS integrati
 
 ---
 
-## 1️⃣ POST /create – curl Request
+## 1️ POST /create – curl Request
 
 ![POST Create - curl](screenshots/create_curl_req.png)
 
 ---
 
-## 2️⃣ POST /create – Postman Request
+## 2️ POST /create – Postman Request
 
 ![POST Create - Postman](screenshots/create_postman_req.png)
 
 ---
 
-## 3️⃣ GET /list – curl Request
+## 3️ GET /list – curl Request
 
 ![GET List - curl](screenshots/list_curl_req.png)
 
 ---
 
-## 4️⃣ GET /list – Postman Request
+## 4️ GET /list – Postman Request
 
 ![GET List - Postman](screenshots/list_postman_req.png)
 
 ---
 
-## 5️⃣ AWS RDS – Table Data Verification
+## 5️ AWS RDS – Table Data Verification
 
 The following screenshots show data successfully written to and read from the live RDS database using EC2 Instance.
 
@@ -271,7 +271,7 @@ The following screenshots show data successfully written to and read from the li
 
 ---
 
-# 🔐 Security Implementation
+# Security Implementation
 
 ✔ EC2 → RDS communication via Security Groups  
 ✔ RDS is NOT publicly accessible  
@@ -281,7 +281,7 @@ The following screenshots show data successfully written to and read from the li
 
 ---
 
-# 🛠 Tech Stack
+# Tech Stack
 
 - Node.js  
 - Express.js  
@@ -294,7 +294,7 @@ The following screenshots show data successfully written to and read from the li
 
 ---
 
-# 📦 Summary
+# Summary
 
 This project demonstrates:
 
@@ -305,6 +305,7 @@ This project demonstrates:
 - API Authorization implementation  
 
 ---
+
 
 
 
