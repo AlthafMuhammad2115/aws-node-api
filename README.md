@@ -88,6 +88,61 @@ Verify:
 ```bash
 env | grep DB_
 ```
+---
+## Step 5: Create Database and Table (One-Time Setup)
+
+Since the RDS instance is private, the database and table must be created from the EC2 instance.
+
+This step is required **only once** before running the application.
+
+---
+
+###  Connect to RDS from EC2
+
+Run the following command inside EC2:
+
+```bash
+docker run -it --rm mysql:8.0 \
+mysql -h $DB_HOST -u $DB_USER -p
+```
+
+Enter the RDS password when prompted.
+
+---
+
+### Create Database
+
+```sql
+CREATE DATABASE IF NOT EXISTS assignmentdb;
+USE assignmentdb;
+```
+
+---
+
+### Create Sample Table
+
+```sql
+CREATE TABLE IF NOT EXISTS sample (
+  id INT AUTO_INCREMENT PRIMARY KEY,
+  name VARCHAR(100)
+);
+```
+
+---
+
+### Verify Table Creation
+
+```sql
+SHOW TABLES;
+```
+
+Expected Output:
+
+```
+sample
+```
+
+Your database setup is now complete.
 
 ---
 
@@ -250,5 +305,6 @@ This project demonstrates:
 - API Authorization implementation  
 
 ---
+
 
 
