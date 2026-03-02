@@ -202,7 +202,7 @@ Requests without this header will return:
 POST /create
 ```
 
-### curl Request
+### curl Request (on linux)
 
 ```bash
 curl -X POST http://ec2-100-55-7-244.compute-1.amazonaws.com/create \
@@ -221,7 +221,7 @@ curl -X POST http://ec2-100-55-7-244.compute-1.amazonaws.com/create \
 GET /list
 ```
 
-### curl Request
+### curl Request (on linux)
 
 ```bash
 curl -X GET http://ec2-100-55-7-244.compute-1.amazonaws.com/list \
@@ -305,6 +305,7 @@ This project demonstrates:
 - API Authorization implementation  
 
 ---
+
 
 
 
